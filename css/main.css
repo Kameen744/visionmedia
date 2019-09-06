@@ -1,0 +1,227 @@
+#bodybg{
+	background-image:url(../images/VMS3.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.form-control{
+	margin-top: 5px;
+}
+
+.margtop50{
+	margin-top: 50px;
+}
+.form-default .form-control{
+	font-size: 15px;
+}
+#liancor:hover{
+	background:rgba(50,100,50,0.8);
+	text-align: center;
+	text-transform: bold;
+	color:rgba(50,100,50,0.8);
+}
+
+#advtable{
+	color:white;
+}
+#advtable th {
+	background: rgba(250,250,250,0.3);
+}
+#liancor:active{
+	background:rgba(100,50,50,0.8);
+}
+#logoutbtn{
+	color:white;
+}
+/*
+#RegisterAdvert{
+	background: rgba(10,50,20,0.2);
+	padding: 0px;
+	position:fixed;
+	width: 1150px;
+	margin-left: 225px;
+	max-height: 540px;
+	overflow-y: auto;
+}
+*/
+#AdvertRouter{
+	display: none;
+	margin-left: 5px;
+}
+.rgadfrm{
+	text-align: center;
+	margin:0px; 
+	padding: 0px;
+}
+.adroufrm{
+	background: rgba(100,50,50,0.3);
+}
+#editedcontainer{
+	margin-top: 70px;
+}
+#TransTable{
+	display: none;
+}
+#pinbtn:hover{
+	background: rgba(200,200,200,0.3);
+	color: white;
+}
+#pinbtn{
+	text-align: center;
+	border-radius: 20px;
+	background: #04B173;
+	/*background: rgba(50,100,50,0.8); */
+	color: white;
+	border: 3px solid;
+}
+#leftsidebar{
+	background: rgba(10,50,20,0.1);
+	padding: 0px;
+}
+.dslots{
+	font-size: 18px;
+}
+.pnavbtn{
+	margin-right: 5px;
+	
+}
+.pnavbtn:hover{
+	text-decoration: none;
+
+}
+.pnavlabel:hover{
+	background: rgba(20,200,20,0.5);
+}
+.ui-autocomplete{
+	max-height: 300px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+#AlertsModal{
+	display: none;
+}
+.mainslotset{
+	background: rgba(20,50,20,0.4); 
+	max-width: 250px; 
+	padding: 0px; 
+	margin-left: 30px; 
+	padding-top: 10px; 
+	border-top-right-radius:10px; 
+	border-bottom-right-radius: 10px;
+}
+.notificationList{
+	max-height: 300px;
+	overflow-y: auto;
+	background: rgba(5,5,5,0.2);
+}
+.notelistmain{
+	background: #BC3437;
+	border-radius: 10px;
+	color: white;
+	padding: 10px;
+}
+.nav-availcheck{
+	background: #BC3437;
+	color: white;
+	margin-left: 1095px;
+	height: 510px;
+	width: 265px; 
+	position: absolute;
+	margin-top: 20px;
+}
+#RemainingSlots{
+	font-size: 30px;
+	font-family: times;
+	text-align: center;
+	padding: 0px;
+	color: white;
+}
+.regformcontrol{
+	margin-top: 10px; margin-bottom: 10px;
+}
+
+#progfd {
+	color: white; background: rgb(0,0,0,0.5); margin-top: 15px;
+}
+#progfd th {
+	padding-right: 15px;
+}
+
+. {
+	border: 1px solid #BE3A3D;
+	background: #eeeeee url("images/ui-bg_glass_100_eeeeee_1x400.png") 50% 50% repeat-x;
+	font-weight: bold;
+	color: #BE3A3D;
+	text-decoration: none;
+}
+. {
+	border: 1px solid #e3a1a1;
+	background: #cc0000 url("images/ui-bg_glass_55_BE3A3D_1x400.png") 50% 50% repeat-x;
+	color: #ffffff;
+	font-weight: bold;
+}
+.:hover,
+.:focus {
+	border: 1px solid #cdd5da;
+	background: #f6f6f6 url("images/ui-bg_highlight-hard_100_f6f6f6_1x100.png") 50% 50% repeat-x;
+	font-weight: bold;
+	color: #111111;
+}
+
+.panel-primary .panel-body {
+	overflow-y: auto;
+}
+
+#page-wrapper{
+	background: rgba(0,0,0,0.5);
+}
+#RegSlotsForm {
+	margin-top: 10px; margin-bottom: 10px; padding: 0px;
+}
+.mainwrapper {
+	max-height: 550px; overflow-y: auto;
+}
+.slotsspan {
+	background: #D9534F; text-align:center; padding: 2px; border-radius: 2px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.hmlst{
+	font-size: 14px;
+	font-weight: bold;
+}
+.pointlabel {
+	font-size: 16px;
+}
+.pointlabel:hover {
+	background: #BC3437;
+	color: antiquewhite;
+}
+.labelcol {
+	margin-top: 10px;
+}
+#chooseStationRpt {
+	margin-top:0px;
+}
+.se-pre-con {
+	position: fixed;
+	left: 70px;
+	top: 65px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	opacity: 0.7;
+	background: url(../images/Preloader_8.gif) center no-repeat rgba(10,50,20,0.1);
+}
+.playedtracks {
+	background-color: rgba(4, 177, 114, 0.849);
+	color: #f0f3f5;
+}
+.notplayedtracks {
+	background-color: #cc00007e;
+	color: #ffffff;
+}
+.pad1 {
+	padding: 2px;
+}
