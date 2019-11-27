@@ -1,2 +1,2 @@
 # visionmedia
-PHP, JQuery web app for  management and radio digital log. Being use at Vision Media Service  
+Management and radio digital log app. build with PHP, MySQL, Bootstrap 4 and JQuery. Being use at Vision Media Services Abuja  
